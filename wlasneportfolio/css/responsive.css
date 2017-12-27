@@ -1,0 +1,71 @@
+@media (min-width: 991px) and (max-width: 1419px) {
+    .navbar-nav {
+        margin-left: 72%;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1376px) {
+    .navbar-nav {
+        margin-left: 71%;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1336px) {
+    
+}
+
+@media (min-width: 375px) and (max-width: 990px) {
+
+    .navbar-nav {
+        margin-left: 90%;
+    }
+
+    .pojemnik1,
+    .pojemnik2 {
+        width: 40%;
+        height: 400px;
+        border-radius: 5%;
+        margin-bottom: 20px;
+        overflow: scroll;
+        margin-left: 6%;
+    }
+
+    .mojezdjecie img {
+        background-size: auto;
+        height: 168px;
+        width: auto;
+        margin-top: 7%;
+        margin-right: 22%;
+        margin-bottom: 3%;
+        border: 2px solid black;
+        border-radius: 2%;
+    }
+
+    .mojezdjecie p {
+        text-align: center;
+        margin-left: 6%;
+    }
+}
+
+@media (min-width: 150px) and (max-width: 375px) {
+    .header {
+        background-image: url(../img/dori_15.jpg);
+        background-size: cover;
+        height: 449px;
+        width: auto;
+        position: relative;
+    }
+
+    .navbar-nav {
+        margin-left: 75%;
+    }
+
+    #formspree {
+        width: 400px;
+        align-items: right;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        padding-top: 455px;
+    }
+}

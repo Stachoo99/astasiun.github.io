@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adam Stasiun || Web Developer</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- NAWIGACJA START -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="main-nav">
+        <a class="navbar-brand" href="#">Adam Stasiun Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#omnie">O mnie <span class="sr-only">(current)</span></a>
+                <!--                <a class="nav-item nav-link" href="#">Osiągnięcia</a>-->
+                <a class="nav-item nav-link" href="#technologie">Technologie</a>
+                <a class="nav-item nav-link" href="#main-footer">Kontakt</a>
+                <a class="nav-item nav-link" href="https://github.com/Stachoo99">Github</a>
+                <!--                <a class="nav-item nav-link disabled" href="#">Disabled</a>-->
+            </div>
+        </div>
+    </nav>
+    <!-- NAWIGACJA KONIEC -->
+
+    <!-- HEADER START -->
+    <div class="container-fluid">
+        <div class="col-md-12 header">
+            <h1 class="naglowek1 text-center" id="greeting"></h1>
+            <h3 class="naglowek2 text-center">Witaj w moim portfolio</h3>
+        </div>
+    </div>
+    <!--HEADER STOP-->
+
+    <!-- SEKCJA START -->
+
+    <section id="sekcja">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pojemnik1 text-center">
+                    <h3 id="omnie">O mnie</h3>
+                    <p class="text-center">Jestem początkującym web developerem, obecnie jestem na etapie poszukiwania pracy w zawodzie. Skończyłem kurs programowania Akademii 108 w Krakowie przygotowujący do pracy jako Front End Developer. W pewnym etapie zdecydowałem się na zmianę swojej ścieżki zawodowej chcąc zmienić branżę. Skąd pomysł na zajęcie się tworzeniem stron internetowych? Lubię kreatywność i tworzenie czegoś od samego początku oraz stawiać sobię cele i rozwijać się.</p>
+                </div>
+
+                <div class="col-lg-6 pojemnik2 text-right">
+                    <div class="mojezdjecie">
+                        <img class="card-img-top text-center" src="img/z1.jpg" alt="O mnie">
+                        <p class="card-text">Jestem początkującym<br> Front-End Developerem</p>
+                        <!--
+                        <div class="socialmedia">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </div>
+-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCJA STOP -->
+
+    <!--
+        <div id="metody_fade">
+        <div></div>
+        <button id="show">klik</button>
+        <button id="hide">klik</button>
+    </div>
+-->
+
+
+    <!--TECHNOLOGIE -->
+
+    <section id="technologie">
+        <h2 class="text-center">Technologie</h2>
+
+        <div id="metody_fade">
+            <button type="button" id="show" class="btn btn-secondary przycisk">Rozwiń</button>
+            <!--        <button type="button" id="hide" class="btn btn-secondary align-middle przycisk">Schowaj</button>-->
+            <!--
+            <button id="show" class="przycisk">Rozwiń</button>
+            <button id="hide" class="przycisk">Schowaj</button>
+-->
+            <div class="container technologie hidden text-center">
+                <div class="row">
+                    <div class="col-md-3">
+                        <figure>
+                            <img src="img/html5.png" alt="HTML5">
+                            <figcaption id="podpis">HTML5</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3">
+                        <figure><img src="img/css3.png" alt="Cascading Style Sheets">
+                            <figcaption id="podpis">CSS</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3">
+                        <figure><img src="img/js.png" alt="Java Script">
+                            <figcaption id="podpis">Java Script</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3">
+                        <figure><img src="img/jquery.png" alt="jQuery">
+                            <figcaption id="podpis">jQuery</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- TECHNOLOGIE KONIEC -->
+
+    <!-- KRAUZELA START -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="carousel-1">
+                <!--      <img class="d-block w-100" src="..." alt="First slide">-->
+            </div>
+            <div class="carousel-item" id="carousel-2">
+                <!--      <img class="d-block w-100" src="..." alt="Second slide">-->
+            </div>
+            <div class="carousel-item" id="carousel-3">
+                <!--      <img class="d-block w-100" src="..." alt="Third slide">-->
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+    </div>
+
+    <!-- OSIAGNIECIA START -->
+
+
+    <!-- OSIAGNIECIA STOP -->
+
+    <!-- FOOTER START -->
+
+    <footer id="main-footer">
+        <h3 class="text-center" id="headerkontakt">Kontakt</h3>
+        <form class="inputfocus" id="formspree" action="https://formspree.io/a.stasiun@icloud.com" method="POST">
+            <label for="imie">Podaj Imię</label><br>
+            <input class="inputy" type="text" placeholder="Imię" name="Imie"><br>
+            <label for="nazwizko">Podaj Nazwisko</label><br>
+            <input class="inputy" type="text" placeholder="Nazwisko" name="Nazwisko"><br>
+            <label for="Email">Email</label><br>
+            <input class="inputy" type="email" name="Email" placeholder="Adres Email"><br>
+            <label for="Numer Telefonu">Numer</label><br>
+            <input class="inputy" type="Numer Telefonu" placeholder="Numer Telefonu" name="Numer Telefonu"><br>
+            <label for="Wiadomość">Tutaj wpisz wiadomość</label><br>
+            <textarea id="textarea" name="Wiadomość" cols="30" rows="10" placeholder="Wiadomość"></textarea><br>
+            <input type="submit" id="submit" value="Wyślij">
+        </form>
+
+        <address id="mojedane">
+<a href="mailto:a.stasiun@icloud.com">Adam Stasiun</a><br> 
+<br>
+</address>
+        <div class="socialmedia">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+
+        <p id="stopka">&copy; Copyright 2017 Adam Stasiun</p>
+    </footer>
+
+
+    <!-- SCRIPT MAIN JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

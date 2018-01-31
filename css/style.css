@@ -29,6 +29,7 @@
 }
 
 
+
 /*HEADER START*/
 
 .header {
@@ -219,17 +220,24 @@ section#sekcja {
     display: inline-block;
     width: 400px;
     padding: 2px 62px;
-    font-size: 24px;
+    font-size: 45px;
+    text-decoration: none;
+    color: #000;
 }
 
 #mojedane a {
     color: #000;
-    font-size: 45px;
 }
+
+#mojedane a:hover {
+    font-size: 45px;
+    transition: all 0.4s;
+}
+
+
 
 /*FONTAWESOME START*/
 
-/*biblioteka font-awesome styluje swoje ikonki po klasie .fa, jezeli zlapiemy sam element "i" i bedziemy po nim stylowac, to klasa .fa nadpisze nasze style */
 
 i.fa {
     width: 50px;

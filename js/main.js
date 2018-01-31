@@ -1,17 +1,17 @@
 $(document).ready(function () {
     checkScroll();
     fadeDiv();
+    ustawDate();
 });
 
 $(window).scroll(function () {
     checkScroll();
 });
 
-/**
- * Listen to scroll to change header opacity class
- */
+/* FADE NAVBAR */
+
 function checkScroll() {
-    var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+    var startY = $('.navbar').height() * 2; 
 
     if ($(window).scrollTop() > startY) {
         $('.navbar').addClass("after-fix");
@@ -26,6 +26,7 @@ if ($('.navbar').length > 0) {
     });
 }
 
+/* FADE NAVBAR END */
 
 // The function actually applying the offset
 function offsetAnchor() {
@@ -34,19 +35,19 @@ function offsetAnchor() {
     }
 }
 
-// Captures click events of all <a> elements with href starting with #
+// JUMP TO FIX 
 $(document).on('click', 'a[href^="#"]', function (event) {
-    // Click events are captured before hashchanges. Timeout
-    // causes offsetAnchor to be called after the page jump.
+
     window.setTimeout(function () {
         offsetAnchor();
     }, 0);
 });
 
-// Set the offset when entering page with hash present in the url
 window.setTimeout(offsetAnchor, 0);
+// JUMP TO FIX - END
 
 
+/* ROZWIJANE MENU TECHNOLOGIE */
 
 function fadeDiv() {
     $("#show").click(function () {
@@ -54,3 +55,17 @@ function fadeDiv() {
         $('.technologie').removeClass('hidden');
     });
 }
+/* ROZWIJANE MENU TECHNOLOGIE END*/
+
+/* DATA W STOPCE */
+
+function ustawDate() {
+
+var today = new Date();
+var year = today.getFullYear();
+
+var rok = document.getElementById('stopka');
+rok.innerHTML = '<p>Copyright &copy;' + year + ' Adam Stasiun </p>';
+}
+
+/* DATA W STOPCE END */

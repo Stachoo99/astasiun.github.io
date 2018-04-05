@@ -286,6 +286,10 @@
 
 @media (min-width: 415px) and (max-width: 768px) {
 
+    .navbar-nav {
+        margin-left: 89%;
+    }
+
     .pojemnik1,
     .pojemnik2 {
         width: 360px;
@@ -305,15 +309,15 @@
         color: #000;
         transition: all 0.4s;
     }
-    
+
     #submit {
-    margin-top: 15px;
-    margin-left: 133px;
-    background-color: #F7F7F7;
-    color: #000;
-    border: 1px solid black;
-    border-radius: 4%;
-}
+        margin-top: 15px;
+        margin-left: 133px;
+        background-color: #F7F7F7;
+        color: #000;
+        border: 1px solid black;
+        border-radius: 4%;
+    }
 
 
 }

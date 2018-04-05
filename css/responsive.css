@@ -10,11 +10,9 @@
     }
 }
 
-@media (min-width: 991px) and (max-width: 1336px) {
-    
-}
+@media (min-width: 991px) and (max-width: 1336px) {}
 
-@media (min-width: 375px) and (max-width: 990px) {
+@media (min-width: 150px) and (max-width: 375px) {
 
     .navbar-nav {
         margin-left: 90%;
@@ -61,7 +59,7 @@
     }
 
     #formspree {
-        width: 400px;
+        width: 356px;
         align-items: right;
         display: inline-block;
         position: absolute;

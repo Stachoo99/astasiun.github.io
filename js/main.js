@@ -2,6 +2,7 @@ $(document).ready(function () {
     checkScroll();
     fadeDiv();
     ustawDate();
+    rotateDeg();
 });
 
 $(window).scroll(function () {

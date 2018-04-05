@@ -10,7 +10,99 @@
     }
 }
 
-@media (min-width: 150px) and (max-width: 414px) {
+/*XPERIA Z3*/
+
+@media (min-width: 150px) and (max-width: 360px) {
+    .header {
+        background-image: url(../img/dori_15.jpg);
+        background-size: cover;
+        height: 449px;
+        width: auto;
+        position: relative;
+    }
+
+    .navbar-nav {
+        margin-left: 41%;
+    }
+
+    .pojemnik1,
+    .pojemnik2 {
+        width: 400px;
+        height: 274px;
+        border-radius: 5%;
+    }
+
+
+    .mojezdjecie img {
+
+        height: 168px;
+        width: auto;
+        margin-right: 100px;
+    }
+
+    .mojezdjecie p {
+        text-align: center;
+        margin-left: 1%;
+    }
+
+    #show {
+        margin-left: 39%;
+        margin-bottom: 4%;
+        background-color: #FFF;
+        color: #000;
+        transition: all 0.4s;
+    }
+
+    .inputfocus {
+        width: 400px;
+        align-items: right;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        padding-top: 14px;
+        padding-left: 50px;
+    }
+
+    #submit {
+        margin-top: 15px;
+        background-color: #F7F7F7;
+        color: #000;
+        border: 1px solid black;
+        border-radius: 4%;
+        margin-left: 133px;
+    }
+
+    #mojedane {
+        text-decoration: none;
+        display: inline-block;
+        width: 400px;
+        padding: 2px 53px;
+        font-size: 45px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .socialmedia {
+        margin-left: 102px;
+    }
+
+    #main-footer {
+        background-color: #F7F7F7;
+        padding-top: 579px;
+    }
+
+    #stopka {
+        margin-top: 30px;
+        text-align: center;
+        margin-right: 60px;
+    }
+}
+
+/* XPERIA Z3 END*/
+
+/* IPHONE 6/7/8 PLUS*/
+
+@media (min-width: 361px) and (max-width: 414px) {
     .header {
         background-image: url(../img/dori_15.jpg);
         background-size: cover;
@@ -70,6 +162,16 @@
         margin-left: 133px;
     }
 
+    #mojedane {
+        text-decoration: none;
+        display: inline-block;
+        width: 414px;
+        padding: 2px 74px;
+        font-size: 45px;
+        text-decoration: none;
+        color: #000;
+    }
+
     .socialmedia {
         margin-left: 120px;
     }
@@ -86,3 +188,5 @@
     }
 
 }
+
+/* IPHONE PLUS SIZE END */

@@ -281,3 +281,39 @@
 }
 
 /* IPHONE PLUS SIZE END */
+
+/* IPAD STANDARD */
+
+@media (min-width: 415px) and (max-width: 768px) {
+
+    .pojemnik1,
+    .pojemnik2 {
+        width: 360px;
+        border-radius: 5%;
+        height: 400px;
+    }
+
+    .mojezdjecie p {
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    #show {
+        margin-left: 45%;
+        margin-bottom: 4%;
+        background-color: #FFF;
+        color: #000;
+        transition: all 0.4s;
+    }
+    
+    #submit {
+    margin-top: 15px;
+    margin-left: 133px;
+    background-color: #F7F7F7;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 4%;
+}
+
+
+}

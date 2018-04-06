@@ -25,22 +25,22 @@
         margin-left: 41%;
     }
 
-    .pojemnik1,
-    .pojemnik2 {
+    .container1,
+    .container2 {
         width: 400px;
         height: 274px;
         border-radius: 5%;
     }
 
 
-    .mojezdjecie img {
+    .myphoto img {
 
         height: 168px;
         width: auto;
         margin-right: 100px;
     }
 
-    .mojezdjecie p {
+    .myphoto p {
         text-align: center;
         margin-left: 1%;
     }
@@ -72,14 +72,15 @@
         margin-left: 140px;
     }
 
-    #mojedane {
+    #mydata {
         text-decoration: none;
         display: inline-block;
-        width: 400px;
-        padding: 2px 53px;
+        width: 74%;
+        padding: 0px 0px;
         font-size: 45px;
         text-decoration: none;
         color: #000;
+        margin-left: 48px;
     }
 
     .socialmedia {
@@ -91,7 +92,7 @@
         padding-top: 579px;
     }
 
-    #stopka {
+    #mainfooter {
         margin-top: 30px;
         text-align: center;
         margin-right: 60px;
@@ -115,22 +116,22 @@
         margin-left: 41%;
     }
 
-    .pojemnik1,
-    .pojemnik2 {
+    .container1,
+    .container2 {
         width: 400px;
         height: 274px;
         border-radius: 5%;
     }
 
 
-    .mojezdjecie img {
+    .myphoto img {
 
         height: 168px;
         width: auto;
         margin-right: 110px;
     }
 
-    .mojezdjecie p {
+    .myphoto p {
         text-align: center;
         margin-left: 0%;
     }
@@ -162,14 +163,15 @@
         margin-left: 137px;
     }
 
-    #mojedane {
+    #mydata {
         text-decoration: none;
         display: inline-block;
-        width: 414px;
-        padding: 2px 61px;
+        width: 71%;
+        padding: 0px 0px;
         font-size: 45px;
         text-decoration: none;
         color: #000;
+        margin-left: 54px;
     }
 
     .socialmedia {
@@ -181,7 +183,7 @@
         padding-top: 579px;
     }
 
-    #stopka {
+    #mainfooter {
         margin-top: 30px;
         text-align: center;
         margin-right: 60px;
@@ -206,22 +208,22 @@
         margin-left: 41%;
     }
 
-    .pojemnik1,
-    .pojemnik2 {
+    .container1,
+    .container2 {
         width: 400px;
         height: 274px;
         border-radius: 5%;
     }
 
 
-    .mojezdjecie img {
+    .myphoto img {
 
         height: 168px;
         width: auto;
         margin-right: 110px;
     }
 
-    .mojezdjecie p {
+    .myphoto p {
         text-align: center;
         margin-left: 5%;
     }
@@ -253,18 +255,19 @@
         margin-left: 137px;
     }
 
-    #mojedane {
+    #mydata {
         text-decoration: none;
         display: inline-block;
-        width: 414px;
-        padding: 2px 74px;
+        width: 71%;
+        padding: 0px 0px;
         font-size: 45px;
         text-decoration: none;
         color: #000;
+        margin-left: 71px;
     }
 
     .socialmedia {
-        margin-left: 120px;
+        margin-left: 126px;
     }
 
     #main-footer {
@@ -272,7 +275,7 @@
         padding-top: 579px;
     }
 
-    #stopka {
+    #mainfooter {
         margin-top: 30px;
         text-align: center;
         margin-right: 60px;
@@ -290,14 +293,14 @@
         margin-left: 89%;
     }
 
-    .pojemnik1,
-    .pojemnik2 {
+    .container1,
+    .container2 {
         width: 360px;
         border-radius: 5%;
         height: 400px;
     }
 
-    .mojezdjecie p {
+    .myphoto p {
         text-align: center;
         margin-left: 25%;
     }

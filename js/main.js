@@ -1,8 +1,7 @@
 $(document).ready(function () {
     checkScroll();
     fadeDiv();
-    ustawDate();
-    rotateDeg();
+    setDate();
 });
 
 $(window).scroll(function () {
@@ -48,25 +47,25 @@ window.setTimeout(offsetAnchor, 0);
 // JUMP TO FIX - END
 
 
-/* ROZWIJANE MENU TECHNOLOGIE */
+/* EXPANDING MENU START  */
 
 function fadeDiv() {
     $("#show").click(function () {
-        $(".technologie").slideToggle("slow");
-        $('.technologie').removeClass('hidden');
+        $(".technology").slideToggle("slow");
+        $('.technology').removeClass('hidden');
     });
 }
-/* ROZWIJANE MENU TECHNOLOGIE END*/
+/* EXPANDING MENU END*/
 
-/* DATA W STOPCE */
+/* FOOTER DATA START */
 
-function ustawDate() {
+function setDate() {
 
 var today = new Date();
 var year = today.getFullYear();
 
-var rok = document.getElementById('stopka');
+var rok = document.getElementById('mainfooter');
 rok.innerHTML = '<p>Copyright &copy;' + year + ' Adam Stasiun </p>';
 }
 
-/* DATA W STOPCE END */
+/* FOOTER DATA END */

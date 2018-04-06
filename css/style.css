@@ -218,7 +218,7 @@ section#sekcja {
     display: inline-block;
     width: 400px;
     padding: 2px 62px;
-    font-size: 45px;
+    font-size: 10vh;
     text-decoration: none;
     color: #000;
 }

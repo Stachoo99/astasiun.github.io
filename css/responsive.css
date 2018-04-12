@@ -10,9 +10,119 @@
     }
 }
 
+/* IPHONE 5/SE */
+
+@media (min-width: 150px) and (max-width: 320px) {
+    .navbar-nav {
+        margin-left: 39%;
+    }
+
+    #mainsection {
+        padding-top: 0px;
+        background-color: #F7F7F7;
+    }
+
+    .container1 {
+        width: 400px;
+        height: 331px;
+        border-radius: 5%;
+        margin-top: 26px;
+    }
+
+    .myphoto img {
+        background-size: auto;
+        height: 168px;
+        width: auto;
+        margin-top: 7%;
+        margin-right: 27%;
+        margin-bottom: 3%;
+        border: 2px solid black;
+        border-radius: 2%;
+    }
+
+    .myphoto p {
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    #show {
+        margin-left: 37%;
+        margin-bottom: 4%;
+        background-color: #FFF;
+        color: #000;
+        transition: all 0.4s;
+    }
+    /* FORM */
+    .inputfocus {
+        width: 314px;
+        align-items: right;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        padding-top: 0px;
+    }
+
+    .inputy {
+        width: 306px;
+        margin-top: 5px;
+        background-color: #F7F7F7;
+        border: 1px solid black;
+    }
+
+    #textarea {
+        height: 80px;
+        width: 306px;
+        background-color: #F7F7F7;
+        border: 1px solid black;
+    }
+
+    #submit {
+        margin-top: 15px;
+        background-color: #F7F7F7;
+        color: #000;
+        border: 1px solid black;
+        border-radius: 4%;
+        margin-left: 39%;
+    }
+
+    /* FOOTER */
+    #headercontact {
+        padding-top: 30px;
+        padding-bottom: 3px;
+    }
+
+    #main-footer {
+        background-color: #F7F7F7;
+        padding-top: 30px;
+        height: 403px;
+        margin-top: 438px;
+    }
+
+    #mydata {
+        text-decoration: none;
+        display: inline-block;
+        width: 319px;
+        font-size: 40px;
+        text-decoration: none;
+        color: #000;
+        text-align: center;
+    }
+
+    .socialmedia {
+        margin-left: 75px;
+    }
+    /* COPYRIGHTS */
+    #mainfooter {
+        margin-left: 46px;
+        margin-top: 57px;
+    }
+}
+
+/* IPHONE 5/SE END */
+
 /*XPERIA Z3*/
 
-@media (min-width: 150px) and (max-width: 360px) {
+@media (min-width: 321px) and (max-width: 360px) {
     .header {
         background-image: url(../img/dori_15.jpg);
         background-size: cover;
